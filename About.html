@@ -4,20 +4,93 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <nav>
-      <ul>
-        <li><a href="Home.html">Home</a></li>
-        <li><a href="About.html">About</a></li>
-        <li><a href="Contact.html">Contact</a></li>
-        <li><a href="Experience.html">Experience</a></li>
-      </ul>
+    <nav class="navbar">
+      <div class="navbar-logo"><img src="./src/logo-ALTA.png" alt="" /></div>
+      <div class="navbar-list">
+        <ul>
+          <li><a id="home" href="Home.html">HOME</a></li>
+          <li><a href="About.html">ABOUT</a></li>
+          <li><a href="Experience.html">EXPERIENCE</a></li>
+          <li><a href="Contact.html">CONTACT</a></li>
+        </ul>
+      </div>
     </nav>
     <main>
-      <h1>About me</h1>
-      <p>I'm Irsan Jamaludin</p>
-      <p>I want to be a Programmer</p>
+      <div class="about-text"><p>ABOUT ME</p></div>
+      <div class="about-data">
+        <div class="about-intro">
+          <p>Versatile Front-end Developer with 3+ years of experience designing, developing, and managing complex e-commerce sites and internal frameworks. Specializes in AngularJS and responsive design.</p>
+          <div class="education">
+            <h2>Education</h2>
+            <ul>
+              <li class="list-education">
+                2014
+                <p>DIPLOMA</p>
+                <p class="list-university">Computer Engineering - University of Chicago</p>
+              </li>
+              <li class="list-education">
+                2018
+                <p>BACHELOR DEGREE</p>
+                <p class="list-university">BS Computer Engineering - University of Chicago</p>
+              </li>
+            </ul>
+          </div>
+          <p id="here">Here’s few technologies I’ve been working with recently :</p>
+          <table class="table-saya">
+            <thead>
+              <tr>
+                <th>HTML & CSS</th>
+                <th>Serverless</th>
+                <th>Scrum</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Programming</td>
+                <td>Restful API</td>
+                <td>Test-Driven Dev</td>
+              </tr>
+              <tr>
+                <td>Database</td>
+                <td>Javascript</td>
+                <td>Software Testing</td>
+              </tr>
+              <tr>
+                <td>Git & Github</td>
+                <td>Single Page App</td>
+                <td>UX/UI Designer</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="about-image">
+          <img id="imageAbout" src="./src/matthew-hamilton-tNCH0sKSZbA-unsplash.jpg" alt="" />
+          <img id="imageDot" src="./src/img-dot@2x.png" alt="" />
+        </div>
+      </div>
     </main>
+    <footer>
+      <div class="footer">
+        <div class="footer-left">
+          <img src="./src/logo-ALTA-v2.png" alt="" />
+        </div>
+        <div class="footer-middle">
+          <p>Social media</p>
+          <div class="middle-icon">
+            <img src="./src/ic_fb.png" alt="" />
+            <img src="./src/ic-twitter.png" alt="" />
+            <img src="./src/ic-instagram.png" alt="" />
+            <img src="./src/ic-linkedin.png" alt="" />
+          </div>
+        </div>
+        <div class="line"></div>
+        <div class="footer-right">
+          <p>Copyright © 2019 Alterra</p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

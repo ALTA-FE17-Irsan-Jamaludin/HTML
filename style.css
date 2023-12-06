@@ -1,0 +1,282 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: Muli-Bold;
+  src: url(./font/Muli-Bold.ttf);
+}
+
+@font-face {
+  font-family: Muli-SemiBold;
+  src: url(./font/Muli-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: Roboto-Regular;
+  src: url(./font/roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: Roboto-Medium;
+  src: url(./font/roboto/Roboto-Medium.ttf);
+}
+@font-face {
+  font-family: Roboto-Bold;
+  src: url(./font/roboto/Roboto-Bold.ttf);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  align-items: center;
+  height: 7em;
+  box-shadow: 0px 3px 6px #c1c3c736;
+  position: fixed;
+  width: 100vw;
+  z-index: 10;
+  top: 0;
+}
+
+.navbar-list ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1em;
+  font-family: Muli-Bold;
+}
+
+#home {
+  color: orange;
+}
+
+.navbar-list ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar-list ul {
+  list-style: none;
+  margin-right: 7em;
+}
+
+.navbar-logo {
+  flex: 1;
+  margin-left: 7em;
+}
+
+/* Untuk Hero Image */
+.hero-image {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(./src/bg-img.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#hero-profil {
+  width: 80vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 10vh;
+}
+
+#hero-profil-image {
+  height: 20rem;
+  width: 20rem;
+  gap: 3em;
+  background-size: cover;
+  border-radius: 50%;
+  background-image: url(./src/matthew-hamilton-tNCH0sKSZbA-unsplash.jpg);
+}
+/* 
+.hero-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+} */
+
+.hero-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+}
+
+#name {
+  font-size: 25px;
+  color: #19345e;
+  margin-top: 0;
+  font-family: "Roboto-Medium";
+}
+
+#nameId {
+  font-size: 85px;
+  color: #19345e;
+  margin-top: -0.3em;
+  margin-bottom: 0;
+  font-family: "Roboto-Bold";
+}
+
+#nameDirection {
+  font-size: 35px;
+  color: #19345e;
+  margin-top: 0;
+  font-family: "Roboto-Medium";
+  margin-bottom: 0;
+}
+
+#nameButton {
+  margin-top: 1em;
+  background-color: orange;
+  color: white;
+  padding: 1em 3em;
+  border-radius: 30px;
+  border: 2px solid #f47522;
+  font-family: "Roboto-Regular";
+  font-size: 1rem;
+}
+
+/* Style untuk About.html */
+
+.about-text {
+  width: 100vw;
+  height: 10rem;
+  background-color: #f4f7fc;
+  margin-top: 7em;
+  text-align: center;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.about-text p {
+  font-size: 40px;
+  font-family: "Roboto-Bold";
+  color: #19345e;
+  margin-left: 7rem;
+}
+
+.about-data {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #19345e;
+  height: 33rem;
+  padding-bottom: 10rem;
+}
+
+.about-intro {
+  display: flex;
+  width: 41%;
+  flex-direction: column;
+  height: 27rem;
+  margin-left: 7rem;
+}
+
+.about-intro p {
+  text-align: left;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  font-family: "Roboto-Regular";
+  font-size: 1rem;
+}
+
+.about-intro h2 {
+  font-family: "Muli-Bold";
+}
+
+.about-image {
+  width: 60%;
+  display: flex;
+  justify-content: flex-end;
+  height: 27rem;
+}
+
+#imageAbout {
+  width: 248px;
+  height: 248px;
+  border-radius: 15px;
+  margin-right: 7rem;
+  margin-top: 1em;
+}
+
+#imageDot {
+  width: 89px;
+  height: 89px;
+  position: absolute;
+  right: 320px;
+  top: 520px;
+}
+
+.list-education {
+  font-family: "Roboto-Medium";
+  font-family: 1rem;
+  margin: 0;
+  margin-left: -1.5rem;
+}
+
+.list-university {
+  font-family: 1rem;
+  font-family: "Roboto-Regular";
+  margin-left: -0.05rem;
+}
+
+#here {
+  color: #19345e;
+  font-family: "Muli-SemiBold";
+}
+
+.table-saya {
+  border-collapse: collapse;
+  color: #19345e;
+}
+
+.table-saya td,
+th {
+  text-align: left;
+  border: 1px solid #707070;
+  padding: 0.75em;
+}
+
+.footer {
+  width: 100vw;
+  height: 30vh;
+  background-color: #19345e;
+  margin-top: 10rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+
+.footer-left,
+.footer-middle,
+.footer-right {
+  flex: 1;
+  margin-left: 7rem;
+}
+
+.footer-left img {
+  width: 8rem;
+  height: 5rem;
+}
+
+.middle-icon {
+  display: flex;
+  gap: 2em;
+  justify-content: baseline;
+}
+
+.line {
+  height: 5rem;
+  width: 1px;
+  background-color: rgb(182, 180, 180);
+}
