@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 @font-face {
@@ -111,14 +112,14 @@ body {
 }
 
 #name {
-  font-size: 25px;
+  font-size: 1.5em;
   color: #19345e;
   margin-top: 0;
   font-family: "Roboto-Medium";
 }
 
 #nameId {
-  font-size: 85px;
+  font-size: 6rem;
   color: #19345e;
   margin-top: -0.3em;
   margin-bottom: 0;
@@ -151,7 +152,6 @@ body {
   height: 10rem;
   background-color: #f4f7fc;
   margin-top: 7em;
-  text-align: center;
   display: flex;
   justify-content: left;
   align-items: center;
@@ -279,4 +279,155 @@ th {
   height: 5rem;
   width: 1px;
   background-color: rgb(182, 180, 180);
+}
+
+.toggle {
+  display: none;
+}
+
+@media only screen and (max-width: 767px) {
+  .navbar-list ul {
+    display: none;
+  }
+
+  .navbar-logo {
+    margin-left: 10vw;
+  }
+
+  .toggle {
+    display: block;
+    margin-right: 10vw;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75em;
+  }
+
+  .toggle-item {
+    height: 0.3em;
+    width: 3em;
+    background-color: #19345e;
+  }
+
+  #hero-profil {
+    flex-wrap: wrap;
+  }
+
+  #hero-profil-image {
+    margin-top: 5vh;
+  }
+
+  .hero-data {
+    gap: 3em;
+    justify-content: center;
+  }
+
+  #nameId {
+    font-size: 3em;
+  }
+
+  #name {
+    font-size: 0.8rem;
+    padding-top: 1em;
+  }
+
+  #nameDirection {
+    font-size: 1rem;
+  }
+
+  .ss {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+    margin-top: 1em;
+  }
+
+  /* Styling About */
+
+  .about-text {
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+  }
+
+  .about-text p {
+    margin-left: 0;
+  }
+
+  .about-data {
+    padding-bottom: 31rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .about-intro {
+    margin-left: 3rem;
+  }
+
+  #fr {
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+  }
+
+  #imageAbout {
+    position: absolute;
+    right: -25vw;
+    top: 17rem;
+    width: 30%;
+    height: 20%;
+  }
+
+  #imageDot {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 100px;
+    top: 51%;
+  }
+
+  .table-saya td,
+  th {
+    font-size: 0.8em;
+    padding: 0.8em 1.2em;
+  }
+
+  .footer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .line {
+    display: none;
+  }
+  .footer-left,
+  .footer-middle,
+  .footer-right {
+    flex: 1;
+    margin-left: 0rem;
+  }
+
+  .footer-left img {
+    width: 5rem;
+    height: 3rem;
+    padding-top: 2rem;
+  }
+
+  .footer-middle {
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1023px) {
+  .ss {
+    margin-left: 5vw;
+  }
+
+  #hero-profil-image {
+    width: 20rem;
+    height: 15rem;
+    margin-right: 2em;
+  }
 }
