@@ -53,7 +53,7 @@
 
 .input-contact p {
   align-self: flex-start;
-  margin-left: 7.5rem;
+  margin-left: 8rem;
   font-family: "Muli-Regular";
   font-size: 23px;
 }
@@ -260,6 +260,11 @@
   .img-contact,
   .input-contact {
     width: 100vw;
+  }
+
+  .input-contact p {
+    margin-left: 0rem;
+    font-weight: bold;
   }
 
   .img-contact {
