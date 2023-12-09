@@ -240,82 +240,82 @@
     margin-left: 2.8em;
     font-size: larger;
   }
+}
 
-  @media only screen and (max-width: 767px) {
-    .navbar ul {
-      background-color: #f4f7fc !important;
-    }
-    .navbar-nav {
-      text-align: right;
-      padding-right: 0;
-    }
+@media only screen and (max-width: 767px) {
+  .navbar ul {
+    background-color: #f4f7fc !important;
+  }
+  .navbar-nav {
+    text-align: right;
+    padding-right: 0;
+  }
 
-    /* Styling Contact */
+  /* Styling Contact */
 
-    .row {
-      flex-direction: column;
-    }
+  .row {
+    flex-direction: column;
+  }
 
-    .img-contact,
-    .input-contact {
-      width: 100vw;
-    }
+  .img-contact,
+  .input-contact {
+    width: 100vw;
+  }
 
-    .img-contact {
-      height: 50vh;
-    }
+  .img-contact {
+    height: 50vh;
+  }
 
-    .input-contact {
-      padding-top: 5vh;
-    }
+  .input-contact {
+    padding-top: 5vh;
+  }
 
-    #textarea {
-      width: 35vw;
-      height: 6em;
-      padding: 0 10em;
-    }
+  #textarea {
+    width: 35vw;
+    height: 6em;
+    padding: 0 10em;
+  }
 
-    .input input,
-    .select {
-      width: 35vw;
-      height: 3em;
-      border-radius: 5px;
-      padding: 0 10em;
-    }
+  .input input,
+  .select {
+    width: 35vw;
+    height: 3em;
+    border-radius: 5px;
+    padding: 0 10em;
+  }
 
-    /* Styling experience{ */
-    .flux {
-      padding-left: 1rem;
-    }
+  /* Styling experience{ */
+  .flux {
+    padding-left: 1rem;
+  }
 
-    .round-black {
-      width: 1em;
-      height: 1em;
-    }
+  .round-black {
+    width: 1em;
+    height: 1em;
+  }
 
-    .row {
-      margin: 6rem 0;
-    }
+  .row {
+    margin: 6rem 0;
+  }
 
-    .pipe {
-      height: 58rem;
-      justify-content: space-around;
-    }
+  .pipe {
+    height: 58rem;
+    justify-content: space-around;
+  }
 
-    .experience-display {
-      flex-wrap: wrap;
-    }
+  .experience-display {
+    flex-wrap: wrap;
+  }
 
-    .i {
-      width: 5%;
-    }
+  .i {
+    width: 5%;
+  }
 
-    .x {
-      width: 90%;
-    }
+  .x {
+    width: 90%;
+  }
 
-    .experience-display {
-      padding: 0;
-    }
+  .experience-display {
+    padding: 0;
   }
 }
