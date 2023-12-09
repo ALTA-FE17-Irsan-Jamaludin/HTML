@@ -119,7 +119,7 @@ body {
 }
 
 #nameId {
-  font-size: 6rem;
+  font-size: 84px;
   color: #19345e;
   margin-top: -0.3em;
   margin-bottom: 0;
@@ -129,7 +129,6 @@ body {
 #nameDirection {
   font-size: 35px;
   color: #19345e;
-  margin-top: 0;
   font-family: "Roboto-Medium";
   margin-bottom: 0;
 }
@@ -144,6 +143,14 @@ body {
   font-family: "Roboto-Regular";
   font-size: 1rem;
 }
+
+/* .ss {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: -3em;
+} */
 
 /* Style untuk About.html */
 
@@ -169,7 +176,7 @@ body {
   justify-content: flex-start;
   align-items: center;
   color: #19345e;
-  height: 33rem;
+  height: 44rem;
   padding-bottom: 10rem;
 }
 
@@ -356,9 +363,11 @@ th {
   }
 
   .about-data {
-    padding-bottom: 31rem;
+    padding-top: 1rem;
+    padding-bottom: 33rem;
     flex-direction: row;
     flex-wrap: wrap;
+    height: 60rem;
   }
 
   .about-intro {
@@ -396,7 +405,8 @@ th {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    height: 25vh;
+    gap: 10px;
   }
 
   .line {
@@ -410,9 +420,9 @@ th {
   }
 
   .footer-left img {
-    width: 5rem;
-    height: 3rem;
-    padding-top: 2rem;
+    width: 6rem;
+    height: 4rem;
+    padding-top: 1.5em;
   }
 
   .footer-middle {
@@ -425,9 +435,47 @@ th {
     margin-left: 5vw;
   }
 
-  #hero-profil-image {
-    width: 20rem;
-    height: 15rem;
-    margin-right: 2em;
+  .about-data {
+    padding-bottom: 18rem;
+  }
+
+  .table-saya td,
+  th {
+    font-size: 0.8em;
+    padding: 0.2em 5em 1em 5em;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .line {
+    display: none;
+  }
+
+  .footer {
+    flex-direction: column;
+    height: 18vh;
+    padding-top: 2em;
+  }
+
+  .footer-middle {
+    text-align: center;
+  }
+
+  .footer-right {
+    padding-top: 1em;
+  }
+
+  .footer-left,
+  .footer-middle,
+  .footer-right {
+    flex: 1;
+    margin: 0rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  #nameDirection {
+    margin-top: -20px;
   }
 }

@@ -1,0 +1,321 @@
+.navbar ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Muli-Bold;
+}
+
+.container {
+  padding-left: 4rem;
+}
+
+.navbar-toggler {
+  margin-right: 4rem;
+}
+
+.navbar-nav {
+  padding-right: 4rem;
+  text-align: right;
+}
+
+.main {
+  margin-top: 2rem;
+}
+
+.row {
+  display: flex;
+}
+
+.img-contact {
+  background-image: url(./src/charles-rRWiVQzLm7k-unsplash.jpg);
+  background-size: cover;
+  height: 130vh;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 80%;
+  backdrop-filter: blur(5px);
+  mix-blend-mode: darken;
+}
+
+.input-contact {
+  width: 55%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  font-family: "Muli-Regular";
+  font-size: 20px;
+}
+
+.input-contact p {
+  align-self: flex-start;
+  margin-left: 7.5rem;
+  font-family: "Muli-Regular";
+  font-size: 23px;
+}
+
+.input input,
+.select {
+  width: 35vw;
+  height: 3em;
+  border-radius: 5px;
+}
+
+#sss {
+  color: antiquewhite;
+}
+
+#textarea {
+  width: 35vw;
+  height: 6em;
+}
+
+/* Experience */
+
+.container .row {
+  height: 100vh;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pipe {
+  height: 45rem;
+  width: 3px;
+  background-color: #f4f7fc;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.round-black {
+  width: 2em;
+  height: 2em;
+  background-color: #19345e;
+  border-radius: 50%;
+  margin-top: 10em;
+}
+
+.experience-text {
+  box-shadow: 1px 1px 3px;
+  padding: 1em;
+  border-radius: 10px;
+}
+
+.experience-text h2 {
+  font-size: 17px;
+  font-family: "Muli-Bold";
+}
+
+.experience-text span {
+  font-size: 15px;
+  font-family: "Muli-Bold";
+  color: #acacac;
+}
+
+.experience-text p {
+  font-size: 14px;
+  font-family: "Muli-Bold";
+  color: #19345e;
+}
+
+.experience-display {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 3em;
+  padding: 3rem;
+  width: 60vw;
+}
+
+@media only screen and (min-width: 767px) and (max-width: 991px) {
+  .navbar ul {
+    background-color: #f4f7fc !important;
+  }
+
+  .about-intro {
+    margin-top: 2.5em;
+  }
+
+  #imageDot {
+    top: 483px;
+    height: 4rem;
+    width: 4rem;
+  }
+
+  /* Home */
+
+  #hero-profil {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #hero-profil {
+    flex-wrap: wrap;
+  }
+
+  .hero-data {
+    gap: 3em;
+    justify-content: center;
+  }
+
+  #nameId {
+    font-size: 3em;
+  }
+
+  #name {
+    font-size: 0.8rem;
+    padding-top: 1em;
+  }
+
+  #nameDirection {
+    font-size: 1rem;
+  }
+
+  .ss {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+    margin-left: -2em;
+  }
+
+  /* Styling experience{ */
+  .flux {
+    padding-left: 1rem;
+  }
+
+  .round-black {
+    width: 1em;
+    height: 1em;
+  }
+
+  .container .row {
+    height: 75vh;
+  }
+
+  .pipe {
+    height: 48rem;
+    justify-content: space-evenly;
+  }
+
+  .round-black {
+    margin-top: 0;
+  }
+
+  .experience-display {
+    flex-wrap: wrap;
+  }
+
+  .i {
+    width: 5%;
+  }
+
+  .x {
+    width: 90%;
+  }
+
+  .experience-display {
+    padding: 0;
+  }
+
+  /* About */
+  .input-contact {
+    justify-content: start;
+    align-items: center;
+    height: 80vh;
+  }
+
+  .input-contact p {
+    margin-left: 2.8em;
+    font-size: larger;
+  }
+
+  @media only screen and (max-width: 767px) {
+    .navbar ul {
+      background-color: #f4f7fc !important;
+    }
+    .navbar-nav {
+      text-align: right;
+      padding-right: 0;
+    }
+
+    /* Styling Contact */
+
+    .row {
+      flex-direction: column;
+    }
+
+    .img-contact,
+    .input-contact {
+      width: 100vw;
+    }
+
+    .img-contact {
+      height: 50vh;
+    }
+
+    .input-contact {
+      padding-top: 5vh;
+    }
+
+    #textarea {
+      width: 35vw;
+      height: 6em;
+      padding: 0 10em;
+    }
+
+    .input input,
+    .select {
+      width: 35vw;
+      height: 3em;
+      border-radius: 5px;
+      padding: 0 10em;
+    }
+
+    /* Styling experience{ */
+    .flux {
+      padding-left: 1rem;
+    }
+
+    .round-black {
+      width: 1em;
+      height: 1em;
+    }
+
+    .row {
+      margin: 6rem 0;
+    }
+
+    .pipe {
+      height: 58rem;
+      justify-content: space-around;
+    }
+
+    .experience-display {
+      flex-wrap: wrap;
+    }
+
+    .i {
+      width: 5%;
+    }
+
+    .x {
+      width: 90%;
+    }
+
+    .experience-display {
+      padding: 0;
+    }
+  }
+}
